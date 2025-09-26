@@ -9,6 +9,13 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <dependency>
+            <groupId>ua.opnu.java</groupId>
+            <artifactId>inheritance</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/libs/inheritance.jar</systemPath>
+        </dependency>
         <!-- JUnit 5 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
